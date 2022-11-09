@@ -42,7 +42,7 @@ function prefix_show_hide_demo_register( $meta_boxes ) {
         'title'  => 'Meta Box Show Hide Demo: Show',
 
         // Show this meta box for posts matched below conditions
-        'show'   => array(
+        'include'   => array(
             // With all conditions below, use this logical operator to combine them. Default is 'OR'. Case insensitive. Optional.
             'relation'    => 'OR',
 
